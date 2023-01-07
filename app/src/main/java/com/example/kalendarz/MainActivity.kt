@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
         var x1= (data_przyjazdu[0]*360)+ (data_przyjazdu[1]*30)+data_przyjazdu[2]
         var x2=(data_wyjazdu[0]*360)+ (data_wyjazdu[1]*30)+data_wyjazdu[2]
         var x3=x1.toChar()-x2.toChar()
-            wynik.text ="Ilość dni: "+x3.toString()
+            wynik.text = "Ilość dni: "+x3.toString()
         }
 
 }
