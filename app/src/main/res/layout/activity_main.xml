@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/wyjazd_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Data wyjazdu:"
@@ -19,7 +19,7 @@
         app:layout_constraintVertical_bias="0.811" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/wyjazd_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Wyjazd"
@@ -31,7 +31,7 @@
         app:layout_constraintVertical_bias="0.733" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/przyjazd_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Przyjazd"
@@ -43,7 +43,7 @@
         app:layout_constraintVertical_bias="0.733" />
 
     <CalendarView
-        android:id="@+id/calendarView"
+        android:id="@+id/kalendarz"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -54,7 +54,7 @@
         app:layout_constraintVertical_bias="0.229" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/przyjazd_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Data przyjazdu"
@@ -66,7 +66,7 @@
         app:layout_constraintVertical_bias="0.811" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/wynik"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ilość dni:"
@@ -78,7 +78,7 @@
         app:layout_constraintVertical_bias="0.941" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/oblicz_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ilość dni"
