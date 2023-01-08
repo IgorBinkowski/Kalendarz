@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         var data_przyjazdu = mutableListOf<Int>(0,0,0)
         var data = arrayListOf<Int>(0,0,0)
         kalendarz.minDate =System.currentTimeMillis()
-        kalendarz.maxDate = System.currentTimeMillis() + (kalendarz.maxDate - System.currentTimeMillis())
+        kalendarz.maxDate = System.currentTimeMillis() + 63200251900
         kalendarz.setOnDateChangeListener(){
             CalendarView , i , i2 , i3 ->
             data[0]=i
